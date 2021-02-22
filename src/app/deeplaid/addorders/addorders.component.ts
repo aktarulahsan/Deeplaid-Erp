@@ -33,8 +33,8 @@ export class AddordersComponent implements OnInit {
     this.apiService.getProductGList().subscribe((data) => {
       console.log(data);
       // this.groupList = JSON.parse(data.results);
-      this.groupList= data['results'];
-      console.log(this.groupList);
+      // this.groupList= data['results'];
+      // console.log(this.groupList);
       // console.log(this.prodOneList)
     })
   }
